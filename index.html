@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+    </style>
+    <title>Weather Forcast App</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="card">
+        <div class="search">
+          <input
+            id="city-name"
+            class="search-input"
+            placeholder="Enter a city name"
+          />
+          <button id="searchBtn" class="search-btn">
+            <img class="loop" src="images/search.png" />
+          </button>
+        </div>
+        <div class="hide"></div>
+        <div class="weather">
+          <img class="clouds" src="images/drizzle.png" />
+          <h1 id="temp">23°C</h1>
+          <h2 id="city">Yaounde</h2>
+          <div class="details">
+            <div class="humidity">
+              <div>
+                <img src="images/humidity.png" />
+              </div>
+              <div class="gap">
+                <p id="humid" class="value">50%</p>
+                <p class="char">Humidity</p>
+              </div>
+            </div>
+            <div class="wind">
+              <div>
+                <img src="images/wind.png" />
+              </div>
+              <div>
+                <p id="speed" class="value">4km/h</p>
+                <p class="char">Wind speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>

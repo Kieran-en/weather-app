@@ -2,13 +2,14 @@ body {
   background-color: #3f384c;
 }
 main {
+  margin-top: 4.5%;
   justify-content: center;
   text-align: center;
   font-family: ubuntu;
 }
 .card {
   background: linear-gradient(to right, #0072c6, #7f8c8d);
-  width: 370px;
+  width: 390px;
   margin: auto;
   border-radius: 20px;
   color: white;

@@ -30,15 +30,6 @@ async function checkWeather(city) {
   humid.innerHTML = data.main.humidity + "%";
   speed.innerHTML = data.wind.speed + "km/h";
 
-  // window.onload = function () {
-  //   // Choose the element to display
-  //   cityName.value = "Yaounde"
-  //   checkWeather(cityName.value);
-
-  //   // const message = document.getElementById('message');
-  //   // message.style.display = 'block'; // Show the message
-  // };
-
   if (data.weather[0].main == "Rain") {
     weather.src = "images/rain.png";
     document.querySelector(".weather").style.display = "block";
